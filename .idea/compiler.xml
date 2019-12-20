@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dao" />
         <module name="eurekaregisty" />
         <module name="service" />
         <module name="service2" />
@@ -14,24 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dao" target="1.8" />
-      <module name="entity" target="1.8" />
       <module name="eurekaregisty" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="service" target="1.8" />
       <module name="service2" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="dao" options="" />
-      <module name="entity" options="" />
-      <module name="eurekaregisty" options="" />
-      <module name="parent" options="-parameters" />
-      <module name="service" options="" />
-      <module name="service2" options="" />
-      <module name="web" options="" />
-    </option>
   </component>
 </project>
